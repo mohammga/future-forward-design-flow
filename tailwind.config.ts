@@ -36,7 +36,12 @@ export default {
           foreground: '#000000'
         },
         border: '#D3D3D3',
-        input: '#F0F0F0'
+        input: '#F0F0F0',
+        // Add egera colors
+        egera: {
+          DEFAULT: '#000000',  // Black as default
+          accent: '#333333',   // Slightly lighter black for accent
+        }
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
@@ -46,3 +51,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
